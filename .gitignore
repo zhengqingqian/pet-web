@@ -19,3 +19,9 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+/Dockerfile
+/nginx.conf
+/shell.sh
+/src/config/api.js
+/src/assets/cat.mp4

@@ -1,0 +1,27 @@
+.theBox {
+    z-index: 1000;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.boxElement {
+    margin: auto;
+    text-align: center;
+}
+
+#typing {
+    height: 200px;
+    color: bisque;
+}
+
+.type-text {
+    font-size: xx-large;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+}

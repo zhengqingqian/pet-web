@@ -1,0 +1,149 @@
+.profileSignIn :hover {
+    color: #909090;
+}
+
+.profileSignIn {
+    color: #409eff;
+}
+
+.stat-list {
+    flex: 1 1 auto;
+    display: flex;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    padding: 16.5px 0;
+}
+
+.profile-box .profile {
+    display: flex;
+    padding: 16px;
+    max-height: 92px;
+    border-bottom: 1px solid rgba(92, 96, 102, .1);
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: .2rem;
+    margin-bottom: 8px;
+    font-size: 13px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+}
+
+.likeButton {
+    background: rgba(0, 132, 255, .1);
+    color: #0084ff;
+    border-color: transparent;
+}
+
+.footer {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    margin-top: 30px;
+    -webkit-animation: slideInUp .2s;
+    animation: slideInUp .2s;
+    padding: 10px 20px;
+    background: #fff;
+    color: #646464;
+    -webkit-box-shadow: 0 -1px 3px rgba(26, 26, 26, .1);
+    box-shadow: 0 -1px 3px rgba(26, 26, 26, .1);
+    height: auto;
+    margin-left: -20px
+}
+
+.innerAuthorBox {
+    margin-top: 10px;
+    display: flex;
+    -webkit-box-align: center;
+    font-size: 15px;
+    color: #646464;
+}
+
+.innerconent div:first-child .el-row .el-col .el-link :hover {
+    color: #909090;
+}
+
+.RichContent-inner {
+    max-height: 100px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.RichContent-cover {
+    position: relative;
+    width: 190px;
+    height: 125px;
+    margin-top: -2px;
+    margin-right: 18px;
+    margin-bottom: 4px;
+    float: left;
+    overflow: hidden;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.innerconent {
+    margin-top: 9px;
+    margin-bottom: -4px;
+    overflow: visible;
+    line-height: 1.67;
+}
+
+.commontitle {
+    font-size: 18px;
+    font-weight: 600;
+    font-synthesis: style;
+    line-height: 1.6;
+    color: #1a1a1a;
+    margin-top: -4px;
+    margin-bottom: -4px;
+}
+
+#infoBox .el-row:first-child .el-col:first-child ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    font-size: 15px;
+    border-bottom: 1px solid #f0f2f7;
+}
+
+#homeMain {
+    width: 100%;
+    /*background-color: #fff;*/
+}
+
+#typeList {
+    left: 0;
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+    height: 2.833rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+    transition: all .2s;
+    transform: translateZ(0);
+    font-size: 12px;
+    line-height: normal;
+    border-bottom: 1px solid #f1f1f1;
+    background-color: white;
+}
+
+#typeList .el-row:nth-child(1) .el-link {
+    display: inline-block;
+    line-height: 2.833rem;
+    font-size: 0.9rem;
+    color: #71777c;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#typeList .el-row .el-link:nth-child(1) {
+    padding-left: 0;
+    color: #007fff;
+}
