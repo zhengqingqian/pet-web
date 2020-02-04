@@ -1,3 +1,21 @@
+.pin-bottom .el-col {
+    height: 100%;
+    line-height: 50px;
+}
+
+.pin-bottom {
+    display: flex;
+    position: relative;
+    margin-top: 1.333rem;
+    height: 50px;
+    border-top: 1px solid #ebebeb;
+}
+
+.look-after-info {
+    width: 45%;
+    margin: 2px 0;
+}
+
 .pin-content-row {
     margin-top: 5px;
     margin-bottom: 5px;

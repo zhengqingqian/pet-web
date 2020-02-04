@@ -20,7 +20,7 @@ Vue.component('vue-video-section', VueVideoSection)
 Vue.config.productionTip = false
 axios.defaults.baseURL = API.URL;
 
-
+/*修改moment默认后缀*/
 moment.updateLocale('en', {
     relativeTime : {
         future: "in %s",
