@@ -37,7 +37,7 @@ const routes = [
                 path: "/adopt", component: adoptComponent
             },
             {
-                path: "topic", component: topicComponent
+                path: "/topic", component: topicComponent
             }
         ]
     },

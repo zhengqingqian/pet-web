@@ -1,0 +1,48 @@
+.topic-span-2 {
+    padding-top: .5rem;
+    color: #8a9aa9;
+    text-align: left;
+    font-size: 1.1rem;
+    display: block
+}
+
+.topic-span-1 {
+    font-weight: 600;
+    color: #2e3135;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.topic-pic {
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 1rem;
+    margin-right: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topic-div {
+    padding: 2.5rem 1.2rem;
+    width: 28%;
+    display: inline-block
+}
+
+.title {
+    padding: 2rem 1.2rem;
+    text-align: left;
+    font-size: 1.6rem;
+    color: #0e0e0e;
+    font-weight: 600;
+}
+
+#topic-container {
+    width: 75%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+#topicMain {
+    background-color: white;
+    width: 100%;
+}
