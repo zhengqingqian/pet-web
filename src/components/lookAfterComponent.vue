@@ -36,14 +36,14 @@
                                 </el-col>
                                 <el-row>
                                     <el-col class="look-after-info">
-                                        <el-button type="info" plain>开始日期：{{$moment(item.beginTime).format("MM月d日")}}
+                                        <el-button type="info" plain>开始日期：{{$moment(item.beginTime).format("YYYY-M月D日")}}
                                         </el-button>
                                     </el-col>
                                     <el-col class="look-after-info">
-                                        <el-button type="info" plain>截止日期：{{$moment(item.deadlineTime).format("MM月d日")}}
+                                        <el-button type="info" plain>截止日期：{{$moment(item.deadlineTime).format("YYYY-M月D日")}}
                                         </el-button>
                                     </el-col>
-                                    <el-col class="look-after-info">
+                                    <el-col class="look-after-info" v-if="item.lastTime!==null">
                                         <el-button type="success" plain>托管时长：{{item.lastTime}}天</el-button>
                                     </el-col>
                                     <el-col class="look-after-info">
@@ -172,7 +172,7 @@
                 this.dialogVisible = true;
             },
             getNextInfo() {
-                var _this = this;
+                let _this = this;
                 _this.axios({
                     method: 'get',
                     url: API.URL + API.LookAfter,

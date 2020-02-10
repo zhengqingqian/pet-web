@@ -11,31 +11,33 @@ import API from '../src/config/api'
 import VueVideoSection from 'vue-video-section'
 import VueTypedJs from 'vue-typed-js'
 import moment from 'moment'
+import wysiwyg from "vue-wysiwyg";
 
-Vue.prototype.$moment = moment
+Vue.use(wysiwyg, {});
 Vue.use(VueTypedJs)
 Vue.use(VueAxios, axios)
 Vue.use(ElementUI);
 Vue.component('vue-video-section', VueVideoSection)
+Vue.prototype.$moment = moment
 Vue.config.productionTip = false
 axios.defaults.baseURL = API.URL;
 
 /*修改moment默认后缀*/
 moment.updateLocale('en', {
-    relativeTime : {
+    relativeTime: {
         future: "in %s",
-        past:   "%s ago",
-        s  : 'a few seconds',
-        ss : '%d seconds',
-        m:  "a minute",
+        past: "%s ago",
+        s: 'a few seconds',
+        ss: '%d seconds',
+        m: "a minute",
         mm: "%d 分钟",
-        h:  "an hour",
+        h: "1 小时",
         hh: "%d 小时",
-        d:  "a day",
+        d: "a day",
         dd: "%d 天",
-        M:  "a month",
+        M: "a month",
         MM: "%d months",
-        y:  "a year",
+        y: "a year",
         yy: "%d years"
     }
 });
