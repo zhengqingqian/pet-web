@@ -18,7 +18,7 @@
                             <el-col style="width:10%;height:100%">
                                 <el-col style="width: 100%;">{{item.userName}}</el-col>
                                 <el-col style="width: 100%;" class="meta-box">
-                                    {{$moment(item.creatTime).startOf("h").fromNow(true)+"前"}}
+                                    {{$moment(item.creatTime).startOf("m").fromNow(true)+"前"}}
                                 </el-col>
                             </el-col>
                         </el-row>

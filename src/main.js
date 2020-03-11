@@ -33,11 +33,11 @@ moment.updateLocale('en', {
         mm: "%d 分钟",
         h: "1 小时",
         hh: "%d 小时",
-        d: "a day",
+        d: "1 day",
         dd: "%d 天",
-        M: "a month",
-        MM: "%d months",
-        y: "a year",
+        M: "1 月",
+        MM: "%d 月",
+        y: "1 year",
         yy: "%d years"
     }
 });
