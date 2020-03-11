@@ -31,18 +31,18 @@
 
 ### web预览
 * 登录页面
-![](http://pet.jutu.xyz/1581399778894-HcWxmTOhEvNg5LeA.png)
+![](./src/assets/1581399778894-HcWxmTOhEvNg5LeA.png)
 
 * 资讯界面
-![](http://pet.jutu.xyz/1581399778894-7lebrStD2DDqub4a.png)
+![](./src/assets/1581399778894-7lebrStD2DDqub4a.png)
 
 * 托管界面
-![](http://pet.jutu.xyz/1581399778894-tNNbhuhiFRkxeTvL.png)
+![](./src/assets/1581399778894-tNNbhuhiFRkxeTvL.png)
 
 * 领养界面
-![](http://pet.jutu.xyz/1581399778894-x6zcew7hJx2Ky9SC.png)
+![](./src/assets/1581399778894-x6zcew7hJx2Ky9SC.png)
 
 * 领养消息发布效果图
-![](http://pet.jutu.xyz/1581399778890-attBkUuqq3Nfxcoz.png)
-![](http://pet.jutu.xyz/1581399778889-5tp6TufOekGP6Dzg.png)
+![](./src/assets/1581399778890-attBkUuqq3Nfxcoz.png)
+![](./src/assets/1581399778889-5tp6TufOekGP6Dzg.png)
 
