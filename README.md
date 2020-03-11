@@ -22,10 +22,10 @@
 | element-ui   | 组件库       |   [官网地址](http://element.eleme.io/)   |
 | axios        | 异步请求工具  |   [github地址](https://github.com/axios/axios)    |
 | moment        | 日期格式化工具  |   [官网地址](https://momentjs.com/)   |
-| qiniu-js        | 七牛云skd，用于图片上传  |   [github地址](git://github.com/qiniu/js-sdk.git)   |
+| qiniu-js        | 七牛云skd，用于图片上传  |   [github地址](http://github.com/qiniu/js-sdk.git)   |
 | vue-typed-js        | 打字效果  |   [官网地址](https://mattboldt.com/demos/typed-js/)    |
 | vue-router        | 路由组件  |   [github地址](https://github.com/vuejs/vue-router#readme/)    |
-| vue-video-section        | 视频背景组件，本项目用于登录页面  |   [github地址](http://localhost:8000/dependencies)    |
+| vue-video-section        | 视频背景组件，本项目用于登录页面  |   [github地址](https://github.com/johndatserakis/vue-video-section)    |
 | vuex        | 状态存储管理  |   [github地址](https://github.com/vuejs/vuex#readme)    |
 | vue-wysiwyg        | 富文本编译器  |   [地址](https://www.npmjs.com/package/vue-wysiwyg)    |
 
