@@ -1,7 +1,7 @@
 #### 前言
 比赛项目，简单实现了关于宠物托管、领养的功能。`很多功能尚未完善`，很水。
 
-此仓库为前端代码，前段项目参考 [Gitee 后端代码托管仓库](https://gitee.com/zhaofengling/pet-master/tree/master)
+此仓库为前端代码，后端项目参考 [Gitee 后端代码托管仓库](https://gitee.com/zhaofengling/pet-master/tree/master)
 
 
 ### 项目结构
