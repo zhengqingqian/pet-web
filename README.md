@@ -1,7 +1,7 @@
 #### 前言
 比赛项目，简单实现了关于宠物托管、领养的功能。`很多功能尚未完善`，很水。
 
-此仓库为前端代码，前段项目参考 [Gitee 后端代码托管仓库](https://gitee.com/zhaofengling/pet-master/tree/master)
+此仓库为前端代码，后端项目参考 [Gitee 后端代码托管仓库](https://gitee.com/zhaofengling/pet-master/tree/master)
 
 
 ### 项目结构
@@ -31,18 +31,18 @@
 
 ### web预览
 * 登录页面
-![](http://pet.jutu.xyz/1581399778894-HcWxmTOhEvNg5LeA.png)
+![登录页面](http://pet.jutu.xyz/1581399778894-HcWxmTOhEvNg5LeA.png)
 
 * 资讯界面
-![](http://pet.jutu.xyz/1581399778894-7lebrStD2DDqub4a.png)
+![资讯界面](http://pet.jutu.xyz/1581399778894-7lebrStD2DDqub4a.png)
 
 * 托管界面
-![](http://pet.jutu.xyz/1581399778894-tNNbhuhiFRkxeTvL.png)
+![托管界面](http://pet.jutu.xyz/1581399778894-tNNbhuhiFRkxeTvL.png)
 
 * 领养界面
-![](http://pet.jutu.xyz/1581399778894-x6zcew7hJx2Ky9SC.png)
+![领养界面](http://pet.jutu.xyz/1581399778894-x6zcew7hJx2Ky9SC.png)
 
 * 领养消息发布效果图
-![](http://pet.jutu.xyz/1581399778890-attBkUuqq3Nfxcoz.png)
-![](http://pet.jutu.xyz/1581399778889-5tp6TufOekGP6Dzg.png)
+![领养消息发布](http://pet.jutu.xyz/1581399778890-attBkUuqq3Nfxcoz.png)
+![领养消息发布](http://pet.jutu.xyz/1581399778889-5tp6TufOekGP6Dzg.png)
 
